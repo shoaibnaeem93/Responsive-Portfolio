@@ -335,8 +335,19 @@ input[type=form-text] {
 
     .main-section {
     max-width: 80%;
-    
+
     }
+.about-image {
+    width: 100%;
+}
+
+.p1 {
+    width: 100%;
+}
+
+.p2 {
+    width: 100%;
+}
 
 }
     
