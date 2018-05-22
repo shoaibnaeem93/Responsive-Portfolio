@@ -340,12 +340,16 @@ input[type=form-text] {
 
 .header {
     width: 100%;
+    position: static;
 }
 .header-box{
     width: 100%;
+    position: static;
 }
 .header-right {
     width: 100%;
+    position: static;
+    text-align: center;
 }
     
 .about-image {
@@ -354,12 +358,12 @@ input[type=form-text] {
 
 .p1 {
     width: 100%;
-    padding: none;
+    padding-left: 0px;
 }
 
 .p2 {
     width: 100%;
-    padding: none;
+    padding-left: 0px;
 }
 
 }
