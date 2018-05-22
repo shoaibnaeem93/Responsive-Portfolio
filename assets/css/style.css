@@ -322,4 +322,11 @@ input[type=form-text] {
 
 /* endd css for portfolio.css*/
 
+/* Media Queries start below*/
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+   {
+        width: 100%;
+        
+    }
 /* DONE */
