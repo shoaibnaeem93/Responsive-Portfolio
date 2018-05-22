@@ -324,15 +324,12 @@ input[type=form-text] {
 /* endd css for portfolio.css*/
 
 /* Media Queries start below*/
-@media only screen and (max-width: 640px) and (-webkit-device-pixel-ratio: 3) {
+@media only screen and (max-width: 640px) {
     /* For mobile phones: */
 
-    .entire-content {
-        width: 100%;
-    }
-    .main-section {
-        width: 100%;
-    }
+    body {
+       width: 100%;
+   }
 
     .header-right {
         position: static;
