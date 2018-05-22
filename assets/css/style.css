@@ -1,5 +1,7 @@
 html,body
 {
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden; 
 }
 /* padding and margin set to 0 so that the elements in webpage can reach edges */
