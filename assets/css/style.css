@@ -328,15 +328,26 @@ input[type=form-text] {
     /* For mobile phones: */
 
    
-    .entire-content {
+.entire-content {
     max-width: 100%;
 
-    }
+}
 
-    .main-section {
+.main-section {
     max-width: 80%;
 
-    }
+}
+
+.header {
+    width: 100%;
+}
+.header-box{
+    width: 100%;
+}
+.header-right {
+    width: 100%;
+}
+    
 .about-image {
     width: 100%;
 }
