@@ -327,6 +327,9 @@ input[type=form-text] {
 @media only screen and (max-width: 640px) and (-webkit-device-pixel-ratio: 3) {
     /* For mobile phones: */
 
+    .entire-content {
+        width: 100%;
+    }
     .main-section {
         width: 100%;
     }
