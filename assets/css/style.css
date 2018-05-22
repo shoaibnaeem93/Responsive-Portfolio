@@ -203,8 +203,8 @@ input[type=form-text] {
     width: 200px;
     text-align: center;
     padding: 10px 20px 10px 20px;
-    position: absolute;
-    top: 308px;
+    position: relative;
+    top: 112px;
 }
 
 .rpg-text{
@@ -213,8 +213,8 @@ input[type=form-text] {
     width: 200px;
     text-align: center;
     padding: 10px 20px 10px 20px;
-    position: absolute;
-    top: 308px;
+    position: relative;
+    top: 112px;
 }  
 
 .trivia-text{
@@ -302,7 +302,7 @@ input[type=form-text] {
 
 #rpg{
     float: left;
-    width: 30%
+    width: 30%;
 }
 
 #trivia{
@@ -350,10 +350,12 @@ input[type=form-text] {
     width: 100%;
     position: static;
     text-align: center;
+    padding-bottom: 15px;
 }
     
 .about-image {
     width: 100%;
+    padding-bottom: 8px;
 }
 
 .p1 {
@@ -365,6 +367,34 @@ input[type=form-text] {
     width: 100%;
     padding-left: 0px;
 }
+
+.form-box {
+    width: 100%;
+    
+}
+
+#hangman {
+    width: 100%;
+}
+
+
+#rpg {
+    width: 100%;
+}
+
+
+#trivia {
+    width: 100%;
+}
+
+#widget {
+    width: 100%;
+}
+
+#rps {
+    width: 100%;
+}
+
 
 }
     
