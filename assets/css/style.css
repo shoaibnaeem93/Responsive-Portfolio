@@ -338,24 +338,6 @@ input[type=form-text] {
     
     }
 
-    .header-right {
-        position: static;
-        max-width: 100%;
-        
-    }
-
-    .header-box {
-        position: static;
-        max-width: 100%;
-       
-    }
-
-    .header {
-        position: static;
-        max-width: 100%;
-        
-    }
-
 }
     
 /* DONE */
