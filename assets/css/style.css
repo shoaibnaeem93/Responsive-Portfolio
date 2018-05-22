@@ -1,7 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
+html,body
+{
+    overflow-x: hidden; 
+}
 /* padding and margin set to 0 so that the elements in webpage can reach edges */
 
 /* Everything under is for the general layout of all the pages*/
@@ -330,11 +330,13 @@ input[type=form-text] {
    
 .entire-content {
     max-width: 100%;
+    position: static;
 
 }
 
 .main-section {
     max-width: 80%;
+    position: static;
 
 }
 
