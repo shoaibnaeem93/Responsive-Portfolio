@@ -324,7 +324,7 @@ input[type=form-text] {
 /* endd css for portfolio.css*/
 
 /* Media Queries start below*/
-@media only screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     /* For mobile phones: */
 
    
@@ -334,13 +334,13 @@ input[type=form-text] {
     }
 
     .main-section {
-    max-width: 580px;
-    padding: 20px 20px 20px 20px;
+    max-width: 80%;
     
     }
 
     .header-right {
         position: static;
+        max-width: 100%;
         float: none; 
         display: block;
         text-align: center;
@@ -348,6 +348,7 @@ input[type=form-text] {
 
     .header-box {
         position: static;
+        max-width: 100%;
         float: none; 
         display: block;
         text-align: center;
@@ -355,6 +356,7 @@ input[type=form-text] {
 
     .header {
         position: static;
+        max-width: 100%;
         float: none; 
         display: block;
         text-align: center;
