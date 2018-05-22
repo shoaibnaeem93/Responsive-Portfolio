@@ -329,15 +329,18 @@ input[type=form-text] {
         width: 100%;
     }
     .header-right {
-        position: static
+        position: static;
+        max-width: 640px; 
     }
 
     .header-box {
-        position: static
+        position: static;
+        max-width: 640px; 
     }
-    
+
     .header {
         position: static;
+        max-width: 640px; 
     }
 
     
