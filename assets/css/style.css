@@ -300,6 +300,7 @@ input[type=form-text] {
 #hangman{
     float: left;
     width: 30%;
+    
 }
 
 #rpg{
@@ -325,21 +326,23 @@ input[type=form-text] {
 
 /* endd css for portfolio.css*/
 
-/* Media Queries start below*/
-@media screen and (max-width: 640px) {
-    /* For mobile phones: */
 
-   
+
+/* Media Queries start below*/
+ 
+/* Start media queries for mobile phones: */
+@media screen and (max-width: 640px) {
+
+/* general layout below*/
+
 .entire-content {
     max-width: 100%;
     position: static;
-
 }
 
 .main-section {
     max-width: 80%;
     position: static;
-
 }
 
 .header {
@@ -356,7 +359,10 @@ input[type=form-text] {
     text-align: center;
     padding-bottom: 15px;
 }
-    
+
+/* end general layout*/
+/* index.html below*/
+
 .about-image {
     width: 100%;
     padding-bottom: 8px;
@@ -371,21 +377,22 @@ input[type=form-text] {
     width: 100%;
     padding-left: 0px;
 }
+/* end index.html */
+/* start contact.html */
 
 .form-box {
-    width: 100%;
-    
+    width: 100%;  
 }
+/* end contact.html */
+/* start portfolio.html */
 
 #hangman {
     width: 100%;
 }
 
-
 #rpg {
     width: 100%;
 }
-
 
 #trivia {
     width: 100%;
@@ -399,7 +406,154 @@ input[type=form-text] {
     width: 100%;
 }
 
+}
+/* end portfolio.html */
+/* end media queries for mobile phones */
+
+/* Start media queries for tablets */
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+/* general layout below*/
+.entire-content {
+    max-width: 100%; 
+}
+
+.main-section {
+    max-width: 90%;
+}
+
+.header { 
+    margin-left: 2%;
+}
+
+.header-right {
+    text-align: center;
+    padding-bottom: 15px;
+    margin-right: 5%;
+}
+
+/* end general layout*/
+/* index.html below*/
+
+.about-image {
+    width: 75%;
+    padding: 0px;  
+}
+
+.p1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.p2 {
+    padding: 0px 0px 0px 0px;
+}
+
+/* end index.html */
+/* start contact.html */
+
+.form-box {
+    width: 100%;
+}
+
+/* end contact.html */
+/* start portfolio.html */
+
+#hangman {
+    width: 50%;
+}
+
+#rpg {
+    width: 50%;
+}
+
+#trivia {
+    width: 50%;
+}
+
+#widget {
+    width: 50%;
+}
+
+#rps {
+    width: 50%;
+}
+/* end portfolio.html */
 
 }
+/* done with media queries for tablet*/
+
+/* media queries for desktop are below */
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
+
+    /* general layout below*/
+    .entire-content {
+        max-width: 100%;
+    }
     
+    .main-section {
+        max-width: 55%;
+        margin-left: 5%;
+    }
+
+    .header-box {
+        margin-left: 5%;
+    }
+
+    .header-right {
+        margin-right: 5%;
+    }
+
+    .footer{
+       clear: both;
+    }
+
+/* end general layout*/
+/* index.html below*/
+
+    .p1 {
+        width: 100%;
+        padding-left: 0px;
+    }
+    
+    .p2 {
+        width: 100%;
+        padding-left: 0px;
+    }
+
+/* end index.html */
+/* start contact.html */
+
+    .form-box {
+        overflow: hidden;
+        clear: both;
+    }
+
+/* end contact.html */
+/* start portfolio.html */
+
+#hangman {
+    width: 50%;
+}
+
+#rpg {
+    width: 50%;  
+}
+
+#trivia {
+    width: 50%;
+}
+
+#widget {
+    width: 50%;
+}
+
+#rps {
+    width: 50%;
+}
+/* end portfolio.html */
+/* end media queries for desktops */
+
+/* End media queries*/
+
 /* DONE */
