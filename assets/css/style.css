@@ -354,10 +354,12 @@ input[type=form-text] {
 
 .p1 {
     width: 100%;
+    padding: none;
 }
 
 .p2 {
     width: 100%;
+    padding: none;
 }
 
 }
