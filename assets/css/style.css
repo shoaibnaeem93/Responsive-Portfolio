@@ -341,24 +341,18 @@ input[type=form-text] {
     .header-right {
         position: static;
         max-width: 100%;
-        float: none; 
-        display: block;
         text-align: center;
     }
 
     .header-box {
         position: static;
         max-width: 100%;
-        float: none; 
-        display: block;
         text-align: center;
     }
 
     .header {
         position: static;
         max-width: 100%;
-        float: none; 
-        display: block;
         text-align: center;
     }
 
