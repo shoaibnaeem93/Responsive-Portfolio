@@ -328,10 +328,17 @@ input[type=form-text] {
   .main-section {
         width: 100%;
     }
+    .header-right {
+        position: static
+    }
 
+    .header-box {
+        position: static
+    }
+    
     .header {
         position: static;
     }
-    
+
     
 /* DONE */
